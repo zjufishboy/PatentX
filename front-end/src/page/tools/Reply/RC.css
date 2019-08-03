@@ -1,0 +1,33 @@
+.Rc{
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+.RcE{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.ButtonSubmitRc{
+    padding: 5px;
+    width:60px;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.ButtonSubmitRcP{
+    width:40px;
+    height:40px;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}

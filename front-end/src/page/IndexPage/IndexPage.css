@@ -1,0 +1,73 @@
+.pxIndexPageInSide{
+    width:100%;
+    background: #ffffff;
+    min-width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.pxIndexPageFunctBar{
+    width:100%;
+    height:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pxIndexPageFunct{
+    width:20%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+.titleFunct:hover{
+    color:#0000ff;
+}
+.titleFunct{
+    color: #000000;
+}
+.pxIndexPageAd{
+    width:100%;
+    height:20%;
+    min-height:300px;
+    background:url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1564259910917&di=e599cf6270ca5507178252104a260d59&imgtype=0&src=http%3A%2F%2Fwww.juimg.com%2Ftuku%2Fyulantu%2F140106%2F328244-14010609494685.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+
+}
+
+.pxIndexPageSearchBar{
+    width:100%;
+    height:10%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pxIndexLogo{
+    width:30%;
+    margin-left:1%;
+}
+
+
+.pxIndexPageSearch{
+    width:70%;
+    height:30%;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-carousel{
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 2%;
+}

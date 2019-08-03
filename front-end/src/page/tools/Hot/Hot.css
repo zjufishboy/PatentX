@@ -1,0 +1,51 @@
+.TxHot{
+    width:25%;
+    height: 100%;
+    padding:0 20px;
+    background: #ffffff;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.TxHotTitle{
+    margin: 6px 0 0 0;
+    font-size: 1.2rem;
+    color:#222;
+    font-weight: bold;
+
+}
+.TxHotItem{
+    width:100%;
+    height:15%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.TxHotItemImage{
+    height:100%;
+    width:40%;
+    border-radius: 9px;
+    object-fit: cover;
+}
+.TxHotInfo{
+    height: 100%;
+    width:44%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.TxHotInfoTitle{
+    font-size:0.7rem;
+    color: #222;
+}
+.TxHotInfoPrice{
+    width:100%;
+    margin:0 5% 10% 0;
+    text-align: right;
+    font-size:0.7rem;
+    color: #f00;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "deployjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-account": "^3.0.0",
+    "ethereumjs-tx": "^2.1.0",
+    "vnt": "git+https://github.com/vntchain/vnt.js.git",
+    "vnt-kit": "git+https://github.com/vntchain/vnt-kit.js.git"
+  }
+}

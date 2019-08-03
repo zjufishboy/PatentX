@@ -1,0 +1,161 @@
+.userPageInSide{
+    width:100%;
+    height:94%;
+    min-width: 1280px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.userPageAd{
+    margin-top:0px;
+    width:100%;
+    height:200px;
+    background: url(https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=396832103,4147223065&fm=26&gp=0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.userPageInfo{
+    width:100%;
+    height:40%;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2%;
+}
+.userPageInfoAvatar{
+    height:60px;
+    width:60px;
+    background: url(http://i2.hdslb.com/bfs/face/572e79eda505d8a9b508913692a856ee6d19d72e.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+}
+.userPageInfoIandS{
+    padding: 2%;
+    width:auto;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+.userPageInfoId{
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+    font-family: Microsoft Yahei;
+}
+.userPageInfoSignature{
+    font-weight: normal;
+    font-size: 0.8rem;
+    color: white;
+    font-family: Microsoft Yahei;
+}
+.userPagefunctBar{
+    width:100%;
+    height:60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-bottom: 2%;
+}
+.userPagefuncts{
+    width:60%;
+    padding-right: 30%;
+    padding-left: 2%;
+    height:100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.userPagefunct{
+    width:auto;
+    height:50px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.userPagefunct:hover{
+    color: #0000ff;
+}
+.userPagestatics{
+    width:30%;
+    margin-right: 0%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.userPagestatic{
+    width:30%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userPageContent{
+    width:100%;
+    height:auto;
+    min-height: 300px;
+    margin-bottom: 10%;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.userPageContentInside{
+    width:65%;
+    height:auto;
+    min-height: 300px;
+    padding-left: 2%;
+
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.userPageCommentTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 6px 0 0 0px;
+    font-size: 1.2rem;
+    color:#222;
+    font-weight: bold;
+}
+.userPageContentInsideSecond{
+    width:30%;
+    height:auto;
+    min-height: 300px;
+
+    padding: 1% 20px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.userTxInfoSelect{
+    width:auto;
+    margin:0% 0% 4% 0%;
+}
