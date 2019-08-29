@@ -3,7 +3,6 @@ import Vnt from 'vnt'
 let vnt = new Vnt();
 const abi=JSON.parse(CommonData.abi);
 vnt.setProvider(new vnt.providers.HttpProvider(CommonData.url)); //链接到rpc
-
 const GPC =(id)=>{
     let contract = vnt.core.contract(abi).at(CommonData.cAddr); 
     let r
@@ -14,7 +13,6 @@ const GPC =(id)=>{
         return "游鱼星"
     }
     return r.toString()
-    
 }
 
 const GetApplier=(id)=>{    
@@ -23,4 +21,3 @@ const GetApplier=(id)=>{
     }).call()
 }
 export default GetApplier
-;
